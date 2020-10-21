@@ -1,0 +1,20 @@
+@import "general.scss";
+@import "efectos.scss";
+@import "footer.scss";
+@import "imagenes.scss";
+@import "nav.scss";
+
+
+
+/* MEDIA QUERIES */ 
+
+@media screen and (max-width: 600px) {
+
+    img.img-fluid.almohadon {
+      margin-top: 80px;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  }

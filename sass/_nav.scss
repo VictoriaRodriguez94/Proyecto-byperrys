@@ -1,0 +1,28 @@
+#bar {
+    background-color: #FACF0D;
+  }
+  
+  .navbar, #contenedor, #navbarDropdownMenuLink {
+    background-color: black;
+  }
+  
+  .navbar-nav a {
+    text-decoration: none;
+    color: white !important;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+  
+    &:hover {
+      color: white;
+      background-color: #FACF0D;
+    }
+  }
+  
+  a.dropdown-item, .dropdown-menu.text-center {
+    background-color: black;
+  }
+  
+  #navbarDropdownMenuLink:hover {
+    background-color: #FACF0D;
+  }

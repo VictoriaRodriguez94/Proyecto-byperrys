@@ -1,0 +1,37 @@
+/* TRANSICION IMAGENES PRODUCTOS */
+.row.justify-content-center img:hover, .col-xl-12.mx-auto.d-block img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .imghvr-fade:hover {
+    background-color: #FACF0D;
+  }
+  
+  button.btn {
+    &.btn-lg {
+      background-color: black;
+      color: #FACF0D;
+    }
+  
+    &.btn-md {
+      background-color: black;
+      color: #FACF0D;
+  
+      &:hover {
+        background-color: #FACF0D;
+        color: black;
+      }
+    }
+  }
+  
+  section.projects-section {
+    background-color: #FBFCFC;
+  
+    &:hover {
+      background-color: #FACF0D;
+    }
+  }
